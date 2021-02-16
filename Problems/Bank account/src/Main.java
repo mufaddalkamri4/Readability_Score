@@ -8,3 +8,21 @@ class BankAccount {
         this.balance = balance;
     }
 }
+
+class CheckingAccount extends BankAccount {
+    double fee;
+
+    public CheckingAccount(String number, Long balance, double fee) {
+        super(number, balance);
+        this.fee = fee;
+    }
+}
+
+class SavingAccount extends BankAccount {
+    double interestRate;
+
+    public SavingAccount(String number, Long balance, double interestRate) {
+        super(number, balance);
+        this.interestRate = interestRate;
+    }
+}

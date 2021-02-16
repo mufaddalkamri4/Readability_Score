@@ -10,7 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/Alphabetical order" />
             <option value="$PROJECT_DIR$/Problems/Bank account" />
+            <option value="$PROJECT_DIR$/Problems/Movie" />
+            <option value="$PROJECT_DIR$/Problems/The longest ascending sequence" />
             <option value="$PROJECT_DIR$/Readability Score/task" />
             <option value="$PROJECT_DIR$/util" />
           </set>
